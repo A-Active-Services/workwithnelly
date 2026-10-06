@@ -61,7 +61,7 @@ export default function Home() {
     audio.addEventListener('playing', () => { setState(true); stopListening(); });
     audio.addEventListener('pause', () => setState(false));
 
-    btn.addEventListener('click', () => {
+    btn.onclick = () => {
       if (audio.paused) {
         rememberPause(false);
         playWithTimeout().catch(() => setState(false));
@@ -69,7 +69,7 @@ export default function Home() {
         rememberPause(true);
         audio.pause();
       }
-    });
+    };
 
     const events = ['pointerdown','touchend','click','keydown'];
     function onInteract(e){
