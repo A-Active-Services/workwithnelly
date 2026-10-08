@@ -780,7 +780,7 @@ export default function Home() {
         <span>Equal Housing Opportunity</span>
       </div>
       <div className="foot-legal">
-        Nelly Santiesteban, Mortgage Loan Officer, NMLS #1808120. ACE Florida Mortgage, Company NMLS #2384013. Equal Housing Opportunity. This site is for informational purposes only and is not a commitment to lend. Rates, terms, and loan programs are subject to change and individual qualification. Licensed in Florida. <a href="/privacy.html" style={{ color: 'rgba(255,255,255,0.55)', textDecoration: 'underline' }}>Privacy Policy</a> &middot; <a href="/terms.html" style={{ color: 'rgba(255,255,255,0.55)', textDecoration: 'underline' }}>Terms</a>
+        Nelly Santiesteban, Mortgage Loan Officer, NMLS #1808120. ACE Florida Mortgage, NMLS #2384013. Equal Housing Opportunity. This site is for informational purposes only and is not a commitment to lend. Rates, terms, and loan programs are subject to change and individual qualification. Licensed in Florida. <a href="/privacy.html" style={{ color: 'rgba(255,255,255,0.55)', textDecoration: 'underline' }}>Privacy Policy</a> &middot; <a href="/terms.html" style={{ color: 'rgba(255,255,255,0.55)', textDecoration: 'underline' }}>Terms</a>
       </div>
       <div className="foot-copy">&copy; 2026 WorkWithNelly</div>
     </div>
